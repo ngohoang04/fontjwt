@@ -1,0 +1,42 @@
+
+
+.green {
+    border: 1px solid green;
+}
+
+.yellow {
+    border: 1px solid yellow;
+}
+
+
+.register-container {
+    min-height: 100vh;
+    padding-top: 20px;
+    background-color: #fff;
+    .content-right{
+        
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
+        .forgot-pass{
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        
+    }
+
+    .content-left {
+        margin-top: 50px;
+        .brand {
+            text-transform: uppercase;
+            font-style: 30px;
+            color: #1877f2;
+        }
+        .detail {
+            font-size: 20px;
+        }
+    }
+}
